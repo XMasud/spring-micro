@@ -1,2 +1,79 @@
 # Ignore MySQL socket file
 order-service/mysql/mysql.sock
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle specific files
+.gradle/
+build/
+!gradle-wrapper.jar
+# Ignore Gradle cache and user-specific files
+**/build/
+.gradle/
+**/.gradle/
+**/out/
+.gradle/*
+
+# Spring Boot executable files
+*.jar
+*.war
+
+# Logs and runtime files
+logs/
+*.log
+*.out
+*.pid
+
+# Ignore IDE-related files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath/
+.metadata/
+.recommenders/
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+*.swp
+
+# Ignore MySQL Unix socket file (example for your order-service)
+order-service/mysql/mysql.sock
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore generated files (like Swagger/OpenAPI docs)
+swagger-ui/
+swagger.json
+swagger.yaml
+
+# Ignore build artifacts from CI/CD pipelines (if applicable)
+ci/
+build/
+
+# Ignore Java compiled class files
+*.class
