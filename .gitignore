@@ -1,3 +1,4 @@
+
 # Ignore MySQL socket file
 order-service/mysql/mysql.sock
 
