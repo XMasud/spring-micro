@@ -77,3 +77,4 @@ build/
 
 # Ignore Java compiled class files
 *.class
+*.class
