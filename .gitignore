@@ -4,7 +4,7 @@ order-service/mysql/mysql.sock
 inventory-service/docker/mysql/*
 order-service/mysql/*
 order-service/target/*
- product-service/data/*
+product-service/data/*
 
 # Allow the mysql directory to remain
 !inventory-service/docker/mysql/
