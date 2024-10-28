@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "OrderPlacedEvent",
+  "namespace": "com.project.order.event",
+  "fields": [
+    { "name": "orderNumber", "type": "string" },
+    { "name": "email", "type": "string" }
+  ]
+}

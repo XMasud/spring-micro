@@ -1,9 +1,8 @@
-package com.project.notification.service;
+package com.project.service;
 
-import com.project.notification.notification.OrderPlacedEvent;
+import com.project.order.event.OrderPlacedEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.mail.MailException;
 import org.springframework.mail.javamail.JavaMailSender;
