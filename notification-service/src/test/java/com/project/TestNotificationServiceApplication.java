@@ -1,4 +1,4 @@
-package com.project.notification;
+package com.project;
 
 import org.springframework.boot.SpringApplication;
 
